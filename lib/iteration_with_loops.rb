@@ -1,7 +1,7 @@
 def join_nested_strings(src)
   count = 0
   x=[]
-  while count < src[count].length
+  while count < src[count].count
     index = 0
     while index < src[count][index].length
       if src[count][index].class.to_s == "String"
